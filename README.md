@@ -11,3 +11,9 @@ Built by [Shovon Arifin](https://shovonix.dev). Part of the Space tools, with [S
 - **Export**: copy as YouTube chapters (estimated), copy timings, or download CSV. "Open in Prompter" copies the script and opens Space Prompter.
 
 Everything lives in `index.html`; there is no build step. Scripts and settings are stored in the browser (`localStorage`).
+
+## Licence
+
+Copyright © 2026 Shovon Arifin. All rights reserved.
+
+The code is public so you can see how Space Timer works. It is not open source: you may not copy, modify, redistribute or host it, in whole or in part, without written permission. Use the live app at the link above.
