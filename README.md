@@ -2,7 +2,7 @@
 
 Paste a script and see how long it takes to read at your speaking pace, split by section. Live at https://timer.shovonix.dev
 
-Built by [Shovon Arifin](https://shovonix.dev). Part of the Space tools, with [Space Prompter](https://studio.shovonix.dev).
+Built by [Shovon Arifin](https://shovonix.dev). Part of the Space tools, with [Space Prompter](https://prompter.shovonix.dev).
 
 - **Your pace**: set words per minute, or measure it by reading a sample (or the start of your script) out loud.
 - **Sections**: found from `# Heading`, `[BRACKETS]`, ALL CAPS lines or short lines ending in a colon. Without headings, each paragraph is a section.
