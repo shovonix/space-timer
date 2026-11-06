@@ -26,5 +26,6 @@ Paste a script, see how long it takes to read at your pace, split by section. Li
 ## Workflow
 - Work on the Mac in `~/Sites/space/space-timer`. Preview locally, commit small, push to `main`.
 - Live files: `/home/timer/htdocs/timer.shovonix.dev` (CloudPanel site user `timer`). Landing page lives on the hub: `/home/shovonix/htdocs/shovonix.dev/space-timer/`.
-- That folder is NOT a git checkout yet, and this repo is private, so the server can't fetch it without a deploy key. Until a deploy key is set up (like Space Balance), ask Shovon before deploying. Files must stay owned by user `timer`.
+- Deploy: push to `main`, then on the VPS run `deploy-space timer` as root. It pulls `main` as user `timer` (fast-forward only) and checks the site returns 200.
+- Git data lives outside the web root at `/home/timer/space-timer.git` (so `.git` is never served). `landing/`, `README.md` and `CLAUDE.md` are excluded from the live folder via sparse-checkout.
 - Never edit the live files on the VPS directly.
